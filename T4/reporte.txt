@@ -1,0 +1,16 @@
+4000 ->
+			2000: Se escucha sonido lento y poco acorde a lo grabado
+			4000: Se escucha normal aunque con un volumen bajo
+			8000: Se escucha la voz aguda, más rápida y con valumen bajo
+
+
+8000 -> 
+				2000: Se escucha sonido lento y poco acorde a lo grabado
+				8000: Se escucha normal
+				13000: Se escucha la voz aguda y más rápida
+
+16000->
+				2000: No se escucha nada
+				16000: Se escucha normal, buen volumen
+				22000: Se escucha la voz aguda, más rápida, buen volumen
+

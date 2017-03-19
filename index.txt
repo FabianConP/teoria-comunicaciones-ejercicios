@@ -1,0 +1,26 @@
+T1:
+    Grafica F1 = 1/8, F2 = -7/8 [Tener cuidado con el tiempo dado que puede no alcanzar a generar los puntos suficientes (aumentar tiempo)]
+
+T1-Fourier:
+    Grafica serie de Fourier para la función f(x) =  {-1 si x <= 0; 1 en otro caso}, además grafica frecuencia-amplitud
+
+T2:
+    * [t2_1] Grafica coseno con F1 = 20 y Fs = 40
+    * [t2_2] Grafica coseno con F1 = 100 y Fs = 40
+
+T2-Fourier: [Falta arreglar]
+    Grafica abs(sin) con los armónicos 
+
+T3: [Falta d)]
+    Graficar x_a(t) = 3cos(100 * pi * t)
+    a) Frecuncia mínima 200Hz
+    b) Fs = 200Hz
+    c) Fs = 75Hz
+    d) 0 < F < Fs/2 ... 
+
+T4:
+    Grabar,reproducir y gráficar la voz a diferentes frecuencias
+    
+T5-Sinc:
+    Interpolar mediante sinc y otros como cubic
+
