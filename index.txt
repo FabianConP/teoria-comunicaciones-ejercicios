@@ -11,7 +11,7 @@ T2:
 T2-Fourier: [Falta arreglar]
     Grafica abs(sin) con los armónicos 
 
-T3: [Falta d)]
+T3: 
     Graficar x_a(t) = 3cos(100 * pi * t)
     a) Frecuncia mínima 200Hz
     b) Fs = 200Hz
