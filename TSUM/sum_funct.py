@@ -22,21 +22,21 @@ legends = []
 start = 0
 end = 50
 step = 0.001
-f1 = float(raw_input("Ingrese Frecuencia 1>>"))
+f1 = float(input("Ingrese Frecuencia 1>>"))
 t1 = np.arange(start,end,step)
 y1 = np.sin(f1 * 2 * Pi * t1)
 P1 = 1/f1
 plt.plot(t1,y1,"r")
 legends.append("Sin funct P1 = {}".format(P1))
 
-f2 = float(raw_input("Ingrese Frecuencia 2>>"))
+f2 = float(input("Ingrese Frecuencia 2>>"))
 t2 = np.arange(start,end,step)
 y2 = np.sin(f2 * 2 * Pi * t2)
 P2 = 1/f2
 plt.plot(t2,y2,"g")
 legends.append("Sin funct P2 = {}".format(P2))
 
-f3 = float(raw_input("Ingrese Frecuencia 3>>"))
+f3 = float(input("Ingrese Frecuencia 3>>"))
 t3 = np.arange(start,end,step)
 y3 = np.sin(f3 * 2 * Pi * t3)
 P3 = 1/f3
