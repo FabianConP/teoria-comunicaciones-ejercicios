@@ -78,8 +78,20 @@ P3 = 1/f3
 plt.plot(t3,y3)
 legends.append("Sin funct P3 = {}".format(P3))
 
+y4 = y1+y2
+plt.plot(t3,y4)
+legends.append("Sin funct SUMA f1 + f2 periodo = {}".format(LCM(P1,P2)))
+
+y5 = y1+y3
+plt.plot(t3,y5)
+legends.append("Sin funct SUMA f1 + f3 periodo = {}".format(LCM(P1,P3)))
+
+y6 = y3+y2
+plt.plot(t3,y6)
+legends.append("Sin funct SUMA f2 + f3 periodo = {}".format(LCM(P3,P2)))
+
 y4 = y1+y2+y3
-plt.plot(t3,y4,"y")
+plt.plot(t3,y4)
 legends.append("Sin funct SUMA periodo = {}".format(LCM(P1,P2,P3)))
 
 fs = float(raw_input("Ingrese frecuencia de muestro>>")) # -7/8.0
