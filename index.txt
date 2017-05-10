@@ -24,3 +24,5 @@ T4:
 T5-Sinc:
     Interpolar mediante sinc y otros como cubic
 
+T7:
+    Transformada de Fourier y Haar
